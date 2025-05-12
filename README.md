@@ -12,10 +12,14 @@ Es una aplicacion Java con interfaz gráfica (GUI) que convierte monedas utiliza
 - ![image](https://github.com/user-attachments/assets/048941b9-f28d-4137-906b-739a5017a492)
 
 
+
 - Resultados de conversión en formato compacto y formato numérico en español: puntos para miles, coma para decimales (por ejemplo, "100 ARS = 0,09 USD").
 
-- - ![image](https://github.com/user-attachments/assets/a8c7afc5-05d3-4dfb-ba5c-c4c113a26301)
-   
+
+- ![image](https://github.com/user-attachments/assets/a8c7afc5-05d3-4dfb-ba5c-c4c113a26301)
+
+
+
 - Soporte para monedas populares: USD, ARS, BRL, COP, MXN, JPY.
 - Manejo de errores con mensajes claros (montos inválidos, problemas de conexión).
 - Dependencia de Gson para parseo de JSON.
