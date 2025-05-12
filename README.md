@@ -2,27 +2,89 @@
 
 ![Java](https://img.shields.io/badge/Java-22-orange) ![Gson](https://img.shields.io/badge/Gson-2.10.1-blue) ![License](https://img.shields.io/badge/License-MIT-green)
 
-Esta es una aplicación desarrollada para el Challenge de Back End de ONE de Alura Latam - G8. 
-Es una aplicacion Java con interfaz gráfica (GUI) que convierte monedas utilizando la API de [ExchangeRate-API](https://www.exchangerate-api.com/). Los menús desplegables muestran nombres descriptivos y los resultados usan códigos de moneda con formato en español. Ideal para usuarios que buscan una herramienta sencilla para conversiones de divisas.
+Esta aplicación fue desarrollada como parte del Challenge de Back End de ONE - G8 de Alura Latam. Se trata de una herramienta con interfaz gráfica (GUI) en Java que convierte monedas utilizando la API de ExchangeRate-API. Ofrece menús desplegables con nombres descriptivos y resultados en formato numérico español (puntos para miles, coma para decimales), ideal para usuarios que buscan una solución sencilla y efectiva para conversiones de divisas.
 
-## 📋 Características
-- Interfaz gráfica intuitiva construida con Swing, con ventanas de tamaño fijo.
-- Selección de monedas con nombres descriptivos (por ejemplo, "Dólares Estadounidenses (USD)").
-  
-- ![image](https://github.com/user-attachments/assets/048941b9-f28d-4137-906b-739a5017a492)
+🌟 Características Principales
 
 
 
-- Resultados de conversión en formato compacto y formato numérico en español: puntos para miles, coma para decimales (por ejemplo, "1.000,00 ARS = 0,90 USD").
-
-
-- ![image](https://github.com/user-attachments/assets/a8c7afc5-05d3-4dfb-ba5c-c4c113a26301)
 
 
 
-- Soporte para monedas populares: USD, ARS, BRL, COP, MXN, JPY.
-- Manejo de errores con mensajes claros (montos inválidos, problemas de conexión).
-- Dependencia de Gson para parseo de JSON.
+
+Característica
+
+
+
+Descripción
+
+
+
+
+
+🎨 Interfaz Intuitiva
+
+
+
+Construida con Swing, con ventanas de tamaño fijo (500x400 principal, 300x200 resultados).
+
+
+
+
+
+🌍 Soporte de Monedas
+
+
+
+Incluye monedas populares: USD, ARS, BRL, COP, MXN, JPY con nombres descriptivos.
+
+
+
+
+
+📊 Resultados Formateados
+
+
+
+Muestra conversiones como "1.000,00 ARS = 0,90 USD", con ajuste automático al ancho.
+
+
+
+
+
+⚠️ Manejo de Errores
+
+
+
+Mensajes claros para montos inválidos o problemas de conexión.
+
+
+
+
+
+📦 Dependencias
+
+
+
+Utiliza Gson para parseo de JSON desde la API.
+
+Capturas de Pantalla
+
+
+
+
+
+Selección de Monedas
+
+![image](https://github.com/user-attachments/assets/048941b9-f28d-4137-906b-739a5017a492)
+
+
+Resultado de Conversión
+
+
+![image](https://github.com/user-attachments/assets/a8c7afc5-05d3-4dfb-ba5c-c4c113a26301)
+
+
 
 ## 🛠 Requisitos
 - **JDK 22**: Necesario para el módulo `java.net.http`.
