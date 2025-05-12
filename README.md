@@ -3,7 +3,7 @@
 ![Java](https://img.shields.io/badge/Java-22-orange) ![Gson](https://img.shields.io/badge/Gson-2.10.1-blue) ![License](https://img.shields.io/badge/License-MIT-green)
 
 Esta es una aplicación desarrollada para el Challenge de Back End de ONE de Alura Latam - G8. 
-Es una aplicacion Java con interfaz gráfica (GUI) que convierte monedas utilizando la API de [ExchangeRate-API](https://www.exchangerate-api.com/). Los menús desplegables muestran nombres descriptivos (por ejemplo, "Pesos Argentinos (ARS)"), mientras que los resultados usan códigos de moneda con formato en español (por ejemplo, "1.000,00 ARS = 0,90 USD"). Ideal para usuarios que buscan una herramienta sencilla para conversiones de divisas.
+Es una aplicacion Java con interfaz gráfica (GUI) que convierte monedas utilizando la API de [ExchangeRate-API](https://www.exchangerate-api.com/). Los menús desplegables muestran nombres descriptivos y los resultados usan códigos de moneda con formato en español. Ideal para usuarios que buscan una herramienta sencilla para conversiones de divisas.
 
 ## 📋 Características
 - Interfaz gráfica intuitiva construida con Swing, con ventanas de tamaño fijo.
@@ -13,7 +13,7 @@ Es una aplicacion Java con interfaz gráfica (GUI) que convierte monedas utiliza
 
 
 
-- Resultados de conversión en formato compacto y formato numérico en español: puntos para miles, coma para decimales (por ejemplo, "100 ARS = 0,09 USD").
+- Resultados de conversión en formato compacto y formato numérico en español: puntos para miles, coma para decimales (por ejemplo, "1.000,00 ARS = 0,90 USD").
 
 
 - ![image](https://github.com/user-attachments/assets/a8c7afc5-05d3-4dfb-ba5c-c4c113a26301)
