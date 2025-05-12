@@ -7,6 +7,43 @@ Esta aplicación fue desarrollada como parte del Challenge de Back End de ONE - 
 🌟 Características Principales
 
 
+🎨 Interfaz Intuitiva: Construida con Swing, con ventanas de tamaño fijo.
+
+🌍 Soporte de Monedas: Incluye monedas populares: USD, ARS, BRL, COP, MXN, JPY con nombres descriptivos.
+
+📊 Resultados Formateados: Muestra conversiones como "1.000,00 ARS = 0,90 USD".
+
+⚠️ Manejo de Errores: Mensajes claros para montos inválidos o problemas de conexión.
+
+📦 Dependencias
+
+Utiliza Gson para parseo de JSON desde la API.
+
+Capturas de Pantalla
+
+Selección de Monedas
+
+![image](https://github.com/user-attachments/assets/048941b9-f28d-4137-906b-739a5017a492)
+
+Resultado de Conversión
+
+![image](https://github.com/user-attachments/assets/a8c7afc5-05d3-4dfb-ba5c-c4c113a26301)
+
+## 🛠 Requisitos
+- **JDK 22**: Necesario para el módulo `java.net.http`.
+- **Gson 2.10.1**: Biblioteca para parsear respuestas JSON.
+- **Clave de API**: Una clave válida de [ExchangeRate-API](https://www.exchangerate-api.com/).
+- **Sistema Operativo**: Windows, macOS o Linux.
+- **IDE (opcional)**: IntelliJ IDEA recomendado.
+- **Conexión a internet**: Para solicitudes a la API.
+
+## 📂 Estructura del Proyecto
+```
+Esta aplicación fue desarrollada como parte del Challenge de Back End de ONE - G8 de Alura Latam. Se trata de una herramienta con interfaz gráfica (GUI) en Java que convierte monedas utilizando la API de ExchangeRate-API. Ofrece menús desplegables con nombres descriptivos y resultados en formato numérico español (puntos para miles, coma para decimales), ideal para usuarios que buscan una solución sencilla y efectiva para conversiones de divisas.
+
+🌟 Características Principales
+
+
 
 
 
@@ -76,44 +113,59 @@ Capturas de Pantalla
 
 Selección de Monedas
 
-![image](https://github.com/user-attachments/assets/048941b9-f28d-4137-906b-739a5017a492)
+
 
 
 Resultado de Conversión
 
 
-![image](https://github.com/user-attachments/assets/a8c7afc5-05d3-4dfb-ba5c-c4c113a26301)
+🛠 Requisitos
 
 
 
-## 🛠 Requisitos
-- **JDK 22**: Necesario para el módulo `java.net.http`.
-- **Gson 2.10.1**: Biblioteca para parsear respuestas JSON.
-- **Clave de API**: Una clave válida de [ExchangeRate-API](https://www.exchangerate-api.com/).
-- **Sistema Operativo**: Windows, macOS o Linux.
-- **IDE (opcional)**: IntelliJ IDEA recomendado.
-- **Conexión a internet**: Para solicitudes a la API.
 
-## 📂 Estructura del Proyecto
-```
+
+JDK 22: Necesario para compilar y ejecutar (descarga desde Adoptium o Oracle).
+
+
+
+Gson 2.10.1: Biblioteca para parseo de JSON (incluida en lib/).
+
+
+
+Clave de API: Obtén una clave gratuita en ExchangeRate-API.
+
+
+
+Sistema Operativo: Compatible con Windows, macOS o Linux.
+
+
+
+IDE (opcional): Recomendado IntelliJ IDEA.
+
+
+
+Conexión a Internet: Requerida para consultas a la API.
+
+📂 Estructura del Proyecto
+
 ConversorDeMonedas/
 ├── src/
 │   └── com/
 │       └── aluracursos/
 │           └── conversorDeMonedas/
-│               ├── Principal.java
+│               ├── Principal.java         # Punto de entrada de la aplicación
 │               ├── modulos/
-│               │   ├── Api.java
-│               │   ├── Key.java
+│               │   ├── Api.java           # Conexión a la API
+│               │   ├── Key.java           # Gestión de la clave API
 │               ├── service/
-│               │   ├── ExchangeRateService.java
+│               │   ├── ExchangeRateService.java # Lógica de conversión
 │               ├── ui/
-│                   ├── ConversorDeMonedasUI.java
+│                   ├── ConversorDeMonedasUI.java # Interfaz gráfica
 ├── lib/
-│   ├── gson-2.10.1.jar
-├── ConversorDeMonedas.iml
-├── Key.txt
-├── README.md
+│   ├── gson-2.10.1.jar                  # Dependencia Gson
+├── Key.txt                              # Clave API (gestionada localmente)
+├── README.md                            # Documentación
 ```
 
 ## ▶️ Uso
@@ -162,3 +214,4 @@ ConversorDeMonedas/
     
 ## 📧 Contacto
 Para preguntas o sugerencias, contacta a raquerh@gmail.com o abre un issue en el repositorio.
+¡Gracias por tu interés! 🚀
